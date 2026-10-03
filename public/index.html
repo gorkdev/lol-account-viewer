@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LoL Hesabım</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="wrap">
+    <section id="state" class="state">
+      <div class="spinner"></div>
+      <p id="state-text">League istemcisine bağlanılıyor…</p>
+    </section>
+
+    <section id="app" hidden>
+      <header class="profile">
+        <img id="p-icon" class="p-icon" alt="">
+        <div class="p-main">
+          <h1 id="p-name"></h1>
+          <p id="p-meta" class="muted"></p>
+          <div class="level-bar"><span id="p-level-fill"></span></div>
+        </div>
+        <button id="refresh" class="btn" type="button">Yenile</button>
+      </header>
+
+      <div id="wallet" class="stats"></div>
+      <div id="counts" class="stats"></div>
+
+      <nav id="tabs" class="tabs" role="tablist"></nav>
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Ara…" autocomplete="off">
+        <span id="result-count" class="muted"></span>
+      </div>
+      <section id="panel"></section>
+      <p id="foot" class="muted foot"></p>
+    </section>
+  </main>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

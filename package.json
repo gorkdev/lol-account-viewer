@@ -1,0 +1,11 @@
+{
+  "name": "lol-hesap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local viewer for your own League of Legends account via the League Client (LCU) API",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
