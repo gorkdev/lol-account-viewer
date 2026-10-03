@@ -1,11 +1,23 @@
 {
-  "name": "lol-hesap",
+  "name": "lol-account-viewer",
   "version": "1.0.0",
   "private": true,
-  "description": "Local viewer for your own League of Legends account via the League Client (LCU) API",
+  "description": "Local web viewer for your own League of Legends account, powered by the League Client (LCU) API",
   "type": "module",
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node server.js"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorkdev/lol-account-viewer.git"
+  },
+  "keywords": [
+    "league-of-legends",
+    "lcu",
+    "riot-games",
+    "local"
+  ]
 }
